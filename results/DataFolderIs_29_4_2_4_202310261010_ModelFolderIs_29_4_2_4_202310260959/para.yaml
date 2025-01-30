@@ -1,0 +1,16 @@
+GPU: '0'
+batch_size: 1
+datasets_path: datasets/29_4_2_4
+denoise_model: '29_4_2_4_202310260959'
+fmap: 16
+gap_t: 30
+gap_x: 64
+gap_y: 128
+output_dir: ./results
+overlap_factor: 0
+patch_t: 30
+patch_x: 64
+patch_y: 128
+pth_dir: ./pth
+scale_factor: 1
+test_datasize: 31
