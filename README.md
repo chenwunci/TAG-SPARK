@@ -42,9 +42,7 @@ You can run demo_test_pipeline.py to examine the pre-trained model's denoising e
 python demo_test_pipeline.py
 ```
 
-**Param explanation**
-
-
+### Param explanation
 
 ###### demo_train_pipeline.py
 
