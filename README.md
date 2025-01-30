@@ -4,14 +4,13 @@ Other modification is in the header of the function.
 TAG-SPARK ver1. 2023  Kai-Chun Jhan  
 
 ### Our environment 
-
 * Windows 10
 * Python 3.9
 * Pytorch 1.8.0
 * NVIDIA GPU (GeForce RTX 3080) + CUDA (12.2)
 
 How to install CUDA/Cudnn  
-https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805
+https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805  
 
 ### Setup
 ##### 1.Install CUDA
@@ -24,7 +23,6 @@ https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8
    $ pip install -r requirements.txt
    ```
 
-  
 ### Training
 
 There is a single sample dataset existing in the datasets folder. Please switch to the virtual environment and directory to execute `demo_train_pipeline.py`. Afterward, you can train the new TAG-SPARK model. If you wish to use your own data, please modify the `datasets_path` variable.
@@ -44,10 +42,10 @@ python demo_test_pipeline.py
 
 ### Param explanation
 
-###### demo_train_pipeline.py
+* demo_train_pipeline.py
 
 ```python=11
-## %% Select file(s) to be processed
+# %% Select file(s) to be processed
 
 datasets_path = f'datasets/29_4_2_4'  # folder containing tif files for training
 
@@ -58,8 +56,7 @@ pth_dir = './pth'           # pth file and visualization result file path
 num_workers = 0             # if you use Windows system, set this to 0.
 ```
 
-
-###### demo_test_pipeline.py
+* demo_test_pipeline.py
 
 ```python=11
 # %% Select file(s) to be processed (download if not present)
