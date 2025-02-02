@@ -1,6 +1,6 @@
 # TAG-SPARK 
-This repository is built upon DeepCAD-RT with enhancements and modifications.(https://github.com/cabooster/DeepCAD-RT)
-Additional modifications can be found in the function headers.
+This repository is built upon DeepCAD-RT with enhancements and modifications.(https://github.com/cabooster/DeepCAD-RT)  
+Additional modifications can be found in the function headers.  
 TAG-SPARK ver1. 2023 Kai-Chun Jhan
 
 ### Our environment 
@@ -40,7 +40,7 @@ Run `demo_test_pipeline.py` to evaluate the pre-trained model's denoising perfor
 python demo_test_pipeline.py
 ```
 
-### Param explanation**
+### Param explanation
 * demo_train_pipeline.py
 
 ```python=11
