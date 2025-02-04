@@ -73,7 +73,6 @@ Clone the repository and install the required dependencies, including PyTorch.
    $ pip install -r requirements.txt
    ```
 
-  
 ### Training
 A sample dataset is available in the datasets folder. Activate the virtual environment and navigate to the project directory before running `demo_train_pipeline.py`. Once completed, you can proceed with training the TAG-SPARK model. To use a custom dataset, update the `datasets_path` variable accordingly.
 ```
@@ -114,6 +113,10 @@ denoise_model = f'29_4_2_4_202310260959'  # A folder containing pth models to be
 GPU = '0'                             # the index of GPU used for computation (e.g. '0', '0,1', '0,1,2')
 num_workers = 0                       # if you use Windows system, set this to 0.
 ```
+
+### Notice
+This repository is built upon DeepCAD-RT with enhancements and modifications.(https://github.com/cabooster/DeepCAD-RT)  
+Additional modifications can be found in the function headers.
 
 ## Results
 **1. Spatial and Temporal Characterization of the Volumetric TAG-SPARK Imaging**
