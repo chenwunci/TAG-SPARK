@@ -117,10 +117,10 @@ num_workers = 0                       # if you use Windows system, set this to 0
 
 ## Results
 **1. Spatial and Temporal Characterization of the Volumetric TAG-SPARK Imaging**
-![advs9491-fig-0002-m](https://hackmd.io/_uploads/ryJDxkgtke.jpg)
+![advs9491-fig-0002-m](https://github.com/chenwunci/TAG-SPARK/blob/main/figures/advs9491-fig-0002-m.jpg)
 
 **2. TAG-SPARK Facilitates Calcium Dynamics Analysis of Extensive PCs Populations**
-![advs9491-fig-0003-m](https://hackmd.io/_uploads/SyqDe1gK1e.jpg)
+![advs9491-fig-0003-m](https://github.com/chenwunci/TAG-SPARK/blob/main/figures/advs9491-fig-0003-m.jpg)
 
 More demo images are presented at the bottom of the [webpage](<https://doi.org/10.1002/advs.202405293> "Title") as ***Supporting Information***.
 
