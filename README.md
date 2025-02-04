@@ -131,3 +131,19 @@ More demo images are presented at the bottom of the [webpage](<https://doi.org/1
 If you use this code, please cite the companion paper where the original method appeared:
 
 * Yin-Tzu Hsieh, Kai-Chun Jhan, Jye-Chang Lee, et al. TAG-SPARK: Empowering High-Speed Volumetric Imaging With Deep Learning and Spatial Redundancy. Advance Science. (2024). https://doi.org/10.1002/advs.202405293
+
+```
+@article{https://doi.org/10.1002/advs.202405293,
+author = {Hsieh, Yin-Tzu and Jhan, Kai-Chun and Lee, Jye-Chang and Huang, Guan-Jie and Chung, Chang-Ling and Chen, Wun-Ci and Chang, Ting-Chen and Chen, Bi-Chang and Pan, Ming-Kai and Wu, Shun-Chi and Chu, Shi-Wei},
+title = {TAG-SPARK: Empowering High-Speed Volumetric Imaging With Deep Learning and Spatial Redundancy},
+journal = {Advanced Science},
+volume = {11},
+number = {41},
+pages = {2405293},
+keywords = {deep-learning noise reduction, high-speed volumetric image, neural networks, Purkinje cells, two-photon microscopy},
+doi = {https://doi.org/10.1002/advs.202405293},
+url = {https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/advs.202405293},
+eprint = {https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202405293},
+year = {2024}
+}
+```
