@@ -12,7 +12,7 @@ Our work has been published in Advanced Science. [**paper**](<https://doi.org/10
 Two-photon high-speed fluorescence calcium imaging stands as a mainstream technique in neuroscience for capturing neural activities with high spatiotemporal resolution. However, challenges arise from the inherent tradeoff between acquisition speed and image quality, grappling with a low signal-to-noise ratio (SNR) due to limited signal photon flux. ___Here, a contrast-enhanced video-rate volumetric system, integrating a tunable acoustic gradient (TAG) lens-based high-speed microscopy with a TAG-SPARK denoising algorithm is demonstrated.___  
 The former facilitates high-speed dense z-sampling at sub-micrometer-scale intervals, allowing the latter to exploit the spatial redundancy of z-slices for self-supervised model training. ___This spatial redundancy-based approach, tailored for 4D (xyzt) dataset, not only achieves >700% SNR enhancement but also retains fast-spiking functional profiles of neuronal activities.___  
 High-speed plus high-quality images are exemplified by in vivo Purkinje cells calcium observation, revealing intriguing dendritic-to-somatic signal convolution, i.e., similar dendritic signals lead to reverse somatic responses. ___This tailored technique allows for capturing neuronal activities with high SNR, thus advancing the fundamental comprehension of neuronal transduction pathways within 3D neuronal architecture.___
-![advs9491-fig-0001-m](https://hackmd.io/_uploads/H1RHlkxFkx.jpg)
+![advs9491-fig-0001-m]([https://hackmd.io/_uploads/H1RHlkxFkx.jpg](https://github.com/chenwunci/TAG-SPARK/blob/main/figures/advs9491-fig-0001-m.jpg))
 
 
 ## Directory Structure
