@@ -1,5 +1,5 @@
 # TAG-SPARK: TAG-lens-based SPAtial redundancy-driven noise Reduction Kernel 
-Our work has been published in Advanced Science. [**paper**](<https://doi.org/10.1002/advs.202405293> "Title")
+**Our work has been published in _Advanced Science_.** [**paper**](<https://doi.org/10.1002/advs.202405293> "Title")
 
 ## Contents
 * [Overview](#Overview)
