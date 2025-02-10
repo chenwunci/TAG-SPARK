@@ -5,6 +5,7 @@
 * [Overview](#Overview)
 * [Directory Structure](#DirectoryStructure)
 * [Python Code](#PythonCode)
+* [Notice](#Notice)
 * [Results](#Results)
 * [Citation](#Citation)
 
@@ -44,7 +45,6 @@ TAG-SPARK
 |---- demo_train_pipeline.py
 |---- demo_test_pipeline.py
 ```
-
 
 ## Python Code
 ### Updates
@@ -113,6 +113,10 @@ denoise_model = f'29_4_2_4_202310260959'  # A folder containing pth models to be
 GPU = '0'                             # the index of GPU used for computation (e.g. '0', '0,1', '0,1,2')
 num_workers = 0                       # if you use Windows system, set this to 0.
 ```
+
+* **Hint**
+1. After downloading the dataset from the link in the download.md file, please delete the `download.md` file to ensure that only the TIFF images remain in the folder. This will allow the program to correctly read the TIFF files and enable the training process to run smoothly.  
+2. Regarding the `num_workers` parameter, it is associated with the DataLoader utility in PyTorch, which handles data loading and can improve training speed. When `num_workers` is set to a value greater than zero, multiple subprocesses are used to load the data. It is common practice to set this value to match the number of CPU cores. However, for smaller datasets, increasing the num_workers value may not significantly enhance efficiency and could result in unnecessary resource usage. Since the TAG-SPARK dataset is relatively small, we observed minimal differences in training time with different num_workers settings. Therefore, setting it to zero should work just fine.
 
 ### Notice
 This repository is built upon DeepCAD-RT with enhancements and modifications.(https://github.com/cabooster/DeepCAD-RT)  
