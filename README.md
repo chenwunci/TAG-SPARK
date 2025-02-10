@@ -36,7 +36,7 @@ TAG-SPARK
 |---- |---- |---- model.onnx
 |---- pth
 |---- |---- model (model name)
-|---- |---- |---- model.pyh
+|---- |---- |---- model.pth
 |---- |---- |---- model.yaml
 |---- results
 |---- |---- denoised images (project name)
